@@ -1,0 +1,14 @@
+Flight zmanim calculator
+
+Who uses it?
+People flying who are orthodox jews and need to know when to pray
+
+Why does he use it? What is he trying to accomplish when he uses it?
+To know when certain halachic times are, and we will include more zmanim than given by traditional zmanim calculators
+
+What functions does your software provide to the user that help him achieve his goal(s)?
+It will tell you what time to pray, as above.
+
+How does he use it? What steps does he go through in order to achieve his goal(s)? What are the workflows he progresses through when using it?
+He must enter the flight information, where he left, date and time. Or, he can insert a flightpath from flightaware.com.
+Then press calculate, and the software will tell you how much time into the flight any relevant zman is at.
