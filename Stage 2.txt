@@ -1,0 +1,8 @@
+What data will your system deal with to meet the user’s needs?
+
+The user will input his flight path data (kml file). This includes the flight time, place, and location, for each small interval in the flight.
+We will then convert each of these intervals into Geolocations with kosherjava.zmanim.util, using the latitude, longitude, and time component of these intervals. Each Geolocation will then be converted into zmanim calenders for that exact location.
+
+What data structures should you use to store and access your data?
+
+When we import the data of the flight from the kml file, we parse each corresponding time and location, which will be one interval. Each interval (around every 60miles / one minute) will be saved into a link in a linked list. Once the file has been fully saved to this list, we will proceed with calculating any zmanim that are relevant for each interval. Any zman that occurs in the interval will be recorded to an array of java.util.Date. We then convert this to the timezone of the users takeoff and landing location, along with the time elapsed from the takeoff, and print to the user. 
